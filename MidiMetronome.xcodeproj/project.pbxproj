@@ -325,20 +325,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JOCircularSlider/JOCircularSlider.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JOCircularSlider.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

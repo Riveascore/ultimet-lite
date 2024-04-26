@@ -6,400 +6,366 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		CF5EDB66CAC2972B9BC27EFA2073CB2B /* AudioKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 30DC7B6D7F4A9227EDE557EB0E0220F1 /* Build configuration list for PBXAggregateTarget "AudioKit" */;
+			buildPhases = (
+				CD74738EB61A073E9A1C7FF419C4E3F3 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = AudioKit;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0A4EC08477A22ACDF3E5EBE9B1E8CD4C /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1761F4B3EADDB012A05A2A359C1F3BA /* DotView.swift */; };
-		19CBFBCB02F3A964F8083081E2E7F844 /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FE8D243FB361FE7C4D100D7EC0C0F2 /* CircularSlider.swift */; };
-		25E0CB60699B3EF11B83A0A9291F81B1 /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C3393B0B568CB1E721038FC7A17F43 /* PointerView.swift */; };
-		2D50779E9AFD3996568D42B881F56B31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		30DBA0C0515A03ABBC763BEB03B6753A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458647EBA0AB6AD0015E2F6FAA054361 /* Extensions.swift */; };
-		44AF9D9130AAB14739F0F8B3FFAE4E42 /* Pods-MidiMetronome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F167A2817A4CCEC9F07184CB4E1B88 /* Pods-MidiMetronome-dummy.m */; };
-		6402BA825A109DC57E5E71689B0DF4B6 /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02BC8C0A99740FA22D99234E73FB253 /* KnobView.swift */; };
-		660798C2243945A44AC61B9DE433816A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7E05DC491C6AD5AC151ABB71DCC8A1C3 /* Pods-MidiMetronome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E9487C8BC5FC768E96925AF6B94543 /* Pods-MidiMetronome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		942B8C8B51F9B2FD7AF3B32A618B6D6C /* DotLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B744B6088A1FF5FC07778DCD82B615 /* DotLayer.swift */; };
-		A200C496503023403643F7507069F886 /* JOCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33551EF1A63AD5D7ACBC7D97C7234348 /* JOCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49C5F60311544C0A350B9E2EC53E692 /* JOCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFDE79218E9E5AE72EAD89C407B2CEB /* JOCircularSlider-dummy.m */; };
-		C69D487DB49F1602FA2AD65EEDCF348E /* CircularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849CCFF68933A2A42DFA1AC8FBF4E139 /* CircularLayer.swift */; };
+		21CC659830BCA02E08CEFCA3F0E17F2E /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A91BBC9F3071F235A3A5004174C7E2C /* DotView.swift */; };
+		33CB174EBDD53E56A8E5E13A3F6152CB /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D03D19318DED3EC362FDF3DBEA91D46 /* KnobView.swift */; };
+		6FC0C2223467302EAE9F892FE355A557 /* DotLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7220A6FDE9193E9AD2987B87E7A909F6 /* DotLayer.swift */; };
+		720EDFE7A9E665736BEAA789BB0B847B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A91361792146E4C7CAF385A2BBE44D8 /* Extensions.swift */; };
+		95F7F54BD6045047F0DCA51E95FBF3CD /* CircularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DD946C17CB96921098AF7DB85381A1 /* CircularLayer.swift */; };
+		98E13C87B248F3255563EB75E72BDE92 /* JOCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B48C3E2ED72FDD5F4C1F9DF0F6A19C2D /* JOCircularSlider-dummy.m */; };
+		B62DA290836A8C931FD238A920D2F08A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B829E2097340FE86FEC8DA3A2F3B1109 /* JOCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 492C2AF7A388DEAC1DB41511861AEEC4 /* JOCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCFE0ED744581CED56FF81C549A7C1FD /* Pods-MidiMetronome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F883818AB870103E4B41EA10AC42480B /* Pods-MidiMetronome-dummy.m */; };
+		CE4C3487540B40F28C8E9BD063525D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D2535FDF076B1486EFA575DEAC65C00D /* CircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9A32E30E145F2FC0AB0DE309B1ED0 /* CircularSlider.swift */; };
+		E1E0008744BDB9635EEFD342F1B16A09 /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3870C97F11B6CB0ED14BB1FDB4920099 /* PointerView.swift */; };
+		F290AE27BAE90D03CAE4FB7158A33B71 /* Pods-MidiMetronome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E696BF824D6FF684EC022492A4C48904 /* Pods-MidiMetronome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F072797E07BD9DCE3DED3F30B1B91329 /* PBXContainerItemProxy */ = {
+		8799BC3A88C253A3B7244B4A357CC53E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D3F42F68B8A84236F702C7164476F05;
+			remoteGlobalIDString = 5D6BEF85A40B5F6295BAFB990665F82C;
 			remoteInfo = JOCircularSlider;
+		};
+		E57DD9F7E22FF37B4E778355C78F5290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5EDB66CAC2972B9BC27EFA2073CB2B;
+			remoteInfo = AudioKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CA35BE86C8FF8DCE6A843778EAFF36 /* AKLazyTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKLazyTap.h; path = iOS/AudioKit.framework/Headers/AKLazyTap.h; sourceTree = "<group>"; };
-		08E077CBA18B60D19DEFEE1D65B15AB3 /* AKMorphingOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMorphingOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMorphingOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		09BB56E120F2DD81904E1591DF5E5439 /* AKDynaRageCompressorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKDynaRageCompressorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKDynaRageCompressorAudioUnit.h; sourceTree = "<group>"; };
-		0A76FCE0A1221D94132D28116EEEC2D1 /* AKOfflineRenderAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOfflineRenderAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOfflineRenderAudioUnit.h; sourceTree = "<group>"; };
-		0B7264FD99F14DB79C071DAF834A4DBD /* Pods-MidiMetronome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MidiMetronome-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C35BCD32A25D262C6BDB6F21868388A /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPCircularBuffer+AudioBufferList.h"; path = "iOS/AudioKit.framework/Headers/TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
-		0E50A76C07EC0EBCE3DEAA16556E6C67 /* AKMandolinAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMandolinAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKMandolinAudioUnit.h; sourceTree = "<group>"; };
-		10E9487C8BC5FC768E96925AF6B94543 /* Pods-MidiMetronome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MidiMetronome-umbrella.h"; sourceTree = "<group>"; };
-		127D0D579BF900158CBCA92B86AADCE4 /* Pods_MidiMetronome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MidiMetronome.framework; path = "Pods-MidiMetronome.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12D04B74BD6A2F1457F14EE8DE9B353A /* AKAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAudioUnit.h; sourceTree = "<group>"; };
-		154D14BBE1C79BCFF7F6DBFCC5946B3D /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = iOS/AudioKit.framework; sourceTree = "<group>"; };
-		1608D6B156BBD8365A03FF20FA6889A5 /* JOCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JOCircularSlider.framework; path = JOCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18AACC148689F73672DFF33EE61C3CD3 /* AudioKitUI-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AudioKitUI-Swift.h"; path = "iOS/AudioKitUI.framework/Headers/AudioKitUI-Swift.h"; sourceTree = "<group>"; };
-		1B98209211FD05526DCE1365F0797A95 /* soundpipe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = soundpipe.h; path = iOS/AudioKit.framework/Headers/soundpipe.h; sourceTree = "<group>"; };
-		1DDCF24F25120CCBC107E248F9C28ED9 /* AKTimelineTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTimelineTap.h; path = iOS/AudioKit.framework/Headers/AKTimelineTap.h; sourceTree = "<group>"; };
-		1EA3ECF62D5CA6FA8555035811ABE9F8 /* JOCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JOCircularSlider.modulemap; sourceTree = "<group>"; };
-		22EBF2812883158F95C48AA1847B4F00 /* AudioKit-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AudioKit-Swift.h"; path = "iOS/AudioKit.framework/Headers/AudioKit-Swift.h"; sourceTree = "<group>"; };
-		30A635793D77C6449151B034F87EA286 /* AKRenderTap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRenderTap.h; path = iOS/AudioKit.framework/Headers/AKRenderTap.h; sourceTree = "<group>"; };
-		32C9DB978D94FA4496360290F7D9FB33 /* EZAudioUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioUtilities.h; path = iOS/AudioKit.framework/Headers/EZAudioUtilities.h; sourceTree = "<group>"; };
-		33551EF1A63AD5D7ACBC7D97C7234348 /* JOCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JOCircularSlider-umbrella.h"; sourceTree = "<group>"; };
-		35021A9D2FB4893559D0C93DE6C77110 /* AKPhaseDistortionOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPhaseDistortionOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPhaseDistortionOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		355F90E2CBC0B6E89EDD8A659A838165 /* AKMicrophoneTrackerEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKMicrophoneTrackerEngine.h; path = iOS/AudioKit.framework/Headers/AKMicrophoneTrackerEngine.h; sourceTree = "<group>"; };
-		3773F4AB1E10290B205855F70CB3D776 /* AKWaveTableAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKWaveTableAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKWaveTableAudioUnit.h; sourceTree = "<group>"; };
-		38AF343597D4F79D0D96082F494B338D /* EZRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZRecorder.h; path = iOS/AudioKit.framework/Headers/EZRecorder.h; sourceTree = "<group>"; };
-		3B4D9915EBF8BA2EC034ED87E09FB7D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CFEEBC8DB6602BE358E50CEE7F13440 /* TPCircularBuffer+Unit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPCircularBuffer+Unit.h"; path = "iOS/AudioKit.framework/Headers/TPCircularBuffer+Unit.h"; sourceTree = "<group>"; };
-		3DA4BC4A84D99614B1E156CF7EA18E10 /* AKCallbackInstrumentAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKCallbackInstrumentAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKCallbackInstrumentAudioUnit.h; sourceTree = "<group>"; };
-		3F629C947C6230B295082E04E113DB4C /* AKSampler_Typedefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKSampler_Typedefs.h; path = iOS/AudioKit.framework/Headers/AKSampler_Typedefs.h; sourceTree = "<group>"; };
-		40A4A44F00D05846B73382E9DAF2023B /* AKBalancerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBalancerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBalancerAudioUnit.h; sourceTree = "<group>"; };
-		458647EBA0AB6AD0015E2F6FAA054361 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = JOCircularSlider/Classes/Extensions.swift; sourceTree = "<group>"; };
-		49DFB28B11EB10EEA042118F228AD530 /* AKBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKBankAudioUnit.h; sourceTree = "<group>"; };
-		4AFDE79218E9E5AE72EAD89C407B2CEB /* JOCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JOCircularSlider-dummy.m"; sourceTree = "<group>"; };
-		4EBC57DC9729952363C4BFA8983921BF /* AKRhinoGuitarProcessorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKRhinoGuitarProcessorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKRhinoGuitarProcessorAudioUnit.h; sourceTree = "<group>"; };
-		53C8A874D4FDF301D786D2574AB250D9 /* EZAudioPlotGL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlotGL.h; path = iOS/AudioKitUI.framework/Headers/EZAudioPlotGL.h; sourceTree = "<group>"; };
-		5600C0BBB06EDE5C7592593B7308B4B3 /* AKOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BCBA7BCCA4CCB9B00700FB320FABC03 /* AKOperationEffectAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOperationEffectAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOperationEffectAudioUnit.h; sourceTree = "<group>"; };
-		5E89924BCD2F2A6D303DECF4A9513E59 /* Pods-MidiMetronome-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MidiMetronome-frameworks.sh"; sourceTree = "<group>"; };
-		5F3B2581B958B00CF9FAFFA689E2F479 /* EZAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlayer.h; path = iOS/AudioKit.framework/Headers/EZAudioPlayer.h; sourceTree = "<group>"; };
-		60BE5237137818BDB1D95B340DBF532F /* TPCircularBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = iOS/AudioKit.framework/Headers/TPCircularBuffer.h; sourceTree = "<group>"; };
-		62C3393B0B568CB1E721038FC7A17F43 /* PointerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerView.swift; path = JOCircularSlider/Classes/PointerView.swift; sourceTree = "<group>"; };
-		63929F470CBB9CD3CAFFCBCD2B008BD2 /* AKFMOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFMOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFMOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		68B07E560BCBF353C1496F087FEFCDCC /* AKSporthStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKSporthStack.h; path = iOS/AudioKit.framework/Headers/AKSporthStack.h; sourceTree = "<group>"; };
-		6A83F3098F163ACFD7232AA680E09723 /* AKInterop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKInterop.h; path = iOS/AudioKit.framework/Headers/AKInterop.h; sourceTree = "<group>"; };
-		6C0B28AEF882CFD05117C9EC169C030E /* ExceptionCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionCatcher.h; path = iOS/AudioKit.framework/Headers/ExceptionCatcher.h; sourceTree = "<group>"; };
-		73DBB4E1E9CC9C5584B69E59BD8109C5 /* EZAudioDisplayLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDisplayLink.h; path = iOS/AudioKitUI.framework/Headers/EZAudioDisplayLink.h; sourceTree = "<group>"; };
-		74C645865DC00857B5C1F3B6EADBAD5B /* AudioKitUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioKitUI.h; path = iOS/AudioKitUI.framework/Headers/AudioKitUI.h; sourceTree = "<group>"; };
-		76B5D71386DCBDDF8FDBD350BD3479A4 /* Pods-MidiMetronome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MidiMetronome.modulemap"; sourceTree = "<group>"; };
-		7B8E0833471013D261A3ABE2CD8D9E02 /* EZOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZOutput.h; path = iOS/AudioKit.framework/Headers/EZOutput.h; sourceTree = "<group>"; };
-		849CCFF68933A2A42DFA1AC8FBF4E139 /* CircularLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularLayer.swift; path = JOCircularSlider/Classes/CircularLayer.swift; sourceTree = "<group>"; };
-		861A19696004698E7475055747451D6A /* AKModulatedDelay_Typedefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKModulatedDelay_Typedefs.h; path = iOS/AudioKit.framework/Headers/AKModulatedDelay_Typedefs.h; sourceTree = "<group>"; };
-		87C7BF9B9F6F7F20873A0BFFA6DDB2B0 /* EZAudioFloatData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatData.h; path = iOS/AudioKit.framework/Headers/EZAudioFloatData.h; sourceTree = "<group>"; };
-		88E55E8C6C6C06D19B960B8771369ABD /* EZAudioPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioPlot.h; path = iOS/AudioKitUI.framework/Headers/EZAudioPlot.h; sourceTree = "<group>"; };
-		8BCF37512C52D6C6C7964E4D9308A32B /* AKPresetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPresetManager.h; path = iOS/AudioKit.framework/Headers/AKPresetManager.h; sourceTree = "<group>"; };
-		8E5233D2B5E19113E048FA44168A8568 /* AKTesterAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTesterAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKTesterAudioUnit.h; sourceTree = "<group>"; };
-		90A9BCA7C1E5AB53AC6E1268EDB9F0A7 /* EZMicrophone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZMicrophone.h; path = iOS/AudioKit.framework/Headers/EZMicrophone.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A06C317B9874E9973BDA4ACD31EBD907 /* AKDiskStreamerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKDiskStreamerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKDiskStreamerAudioUnit.h; sourceTree = "<group>"; };
-		A1761F4B3EADDB012A05A2A359C1F3BA /* DotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotView.swift; path = JOCircularSlider/Classes/DotView.swift; sourceTree = "<group>"; };
-		A2534D320F3DE38D6D77D6C6CF26E8FA /* Pods-MidiMetronome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidiMetronome.release.xcconfig"; sourceTree = "<group>"; };
-		A25ED33783AC440D2F874128C26C69B3 /* AKFrequencyTrackerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKFrequencyTrackerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKFrequencyTrackerAudioUnit.h; sourceTree = "<group>"; };
-		A3BD777616A420EF37663D5DB03CCE1F /* EZAudioFloatConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFloatConverter.h; path = iOS/AudioKit.framework/Headers/EZAudioFloatConverter.h; sourceTree = "<group>"; };
-		A6FE8D243FB361FE7C4D100D7EC0C0F2 /* CircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSlider.swift; path = JOCircularSlider/Classes/CircularSlider.swift; sourceTree = "<group>"; };
-		A9C347605599E1B7944DB00F306101BF /* Pods-MidiMetronome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MidiMetronome-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE44E20D12939085DF091F7B40B10743 /* AudioEngineUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioEngineUnit.h; path = iOS/AudioKit.framework/Headers/AudioEngineUnit.h; sourceTree = "<group>"; };
-		B41E20752606FB1C9E0501A7C1ACFC2B /* EZPlot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZPlot.h; path = iOS/AudioKitUI.framework/Headers/EZPlot.h; sourceTree = "<group>"; };
-		B695938456991ABC0857BD3AE8EF290D /* Pods-MidiMetronome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidiMetronome.debug.xcconfig"; sourceTree = "<group>"; };
-		B6B0099A3FF509C932F9224B6ECC69D6 /* EZAudioDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioDevice.h; path = iOS/AudioKit.framework/Headers/EZAudioDevice.h; sourceTree = "<group>"; };
-		B78B505EA3B6A730D7F96E17D8FEFE41 /* AKAmplitudeTrackerAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAmplitudeTrackerAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKAmplitudeTrackerAudioUnit.h; sourceTree = "<group>"; };
-		B94CCBED64A43212E2AB8BF898333E08 /* Pods-MidiMetronome-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MidiMetronome-resources.sh"; sourceTree = "<group>"; };
-		BA5533A355B31873E89BB8F84ECCBC2B /* BufferedAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BufferedAudioUnit.h; path = iOS/AudioKit.framework/Headers/BufferedAudioUnit.h; sourceTree = "<group>"; };
-		C02BC8C0A99740FA22D99234E73FB253 /* KnobView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KnobView.swift; path = JOCircularSlider/Classes/KnobView.swift; sourceTree = "<group>"; };
-		C07530F981F585B45AFFE2F777A610A8 /* AKGeneratorAudioUnitBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKGeneratorAudioUnitBase.h; path = iOS/AudioKit.framework/Headers/AKGeneratorAudioUnitBase.h; sourceTree = "<group>"; };
-		C0EC66A86C344D1E3F9A33400C068F3C /* JOCircularSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JOCircularSlider.xcconfig; sourceTree = "<group>"; };
-		C3578FB0D5E0A21E43E4555905C8419A /* AKTimeline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKTimeline.h; path = iOS/AudioKit.framework/Headers/AKTimeline.h; sourceTree = "<group>"; };
-		C3F167A2817A4CCEC9F07184CB4E1B88 /* Pods-MidiMetronome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MidiMetronome-dummy.m"; sourceTree = "<group>"; };
-		C4F8568577EA5CAC02974CF3F2812F08 /* AKAudioUnitBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKAudioUnitBase.h; path = iOS/AudioKit.framework/Headers/AKAudioUnitBase.h; sourceTree = "<group>"; };
-		C791D323EF14B9FEEA7DD73F602D2FF0 /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKitUI.framework; path = iOS/AudioKitUI.framework; sourceTree = "<group>"; };
-		C87F38C882BBB872A48E75898E415C86 /* dr_wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dr_wav.h; path = iOS/AudioKit.framework/Headers/dr_wav.h; sourceTree = "<group>"; };
-		CC787D1FA6046C17DB3D998D00E15F63 /* vocwrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vocwrapper.h; path = iOS/AudioKit.framework/Headers/vocwrapper.h; sourceTree = "<group>"; };
-		D7BAA882305BDB8386BC4DD4276D8424 /* AKSamplerMetronome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKSamplerMetronome.h; path = iOS/AudioKit.framework/Headers/AKSamplerMetronome.h; sourceTree = "<group>"; };
-		DDA41CD810D0BF8355E9BEA8147F3D3C /* AKPWMOscillatorBankAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPWMOscillatorBankAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKPWMOscillatorBankAudioUnit.h; sourceTree = "<group>"; };
-		E6921A676E6245DF50E11342E77F6C81 /* EZAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudio.h; path = iOS/AudioKit.framework/Headers/EZAudio.h; sourceTree = "<group>"; };
-		E761D18C66608B017A2D0B5043CF0B97 /* AKOperationGeneratorAudioUnit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKOperationGeneratorAudioUnit.h; path = iOS/AudioKit.framework/Headers/AKOperationGeneratorAudioUnit.h; sourceTree = "<group>"; };
-		E7B744B6088A1FF5FC07778DCD82B615 /* DotLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotLayer.swift; path = JOCircularSlider/Classes/DotLayer.swift; sourceTree = "<group>"; };
-		EE63A4F16387E3194C2372197F91D2E8 /* JOCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JOCircularSlider-prefix.pch"; sourceTree = "<group>"; };
-		F050D88195D6BB53BA1356BE959E67D6 /* EZAudioFFT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFFT.h; path = iOS/AudioKit.framework/Headers/EZAudioFFT.h; sourceTree = "<group>"; };
-		F3101FA89340AB3538BC960503139967 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F77376BD2B7AB81C85BB7827A6BA638D /* EZAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFile.h; path = iOS/AudioKit.framework/Headers/EZAudioFile.h; sourceTree = "<group>"; };
-		FD5B73F7F064F85AD57F88DC8903AE67 /* EZAudioFileMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EZAudioFileMarker.h; path = iOS/AudioKit.framework/Headers/EZAudioFileMarker.h; sourceTree = "<group>"; };
-		FFFAB98574F9B481068C380D686E39DC /* AudioKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioKit.h; path = iOS/AudioKit.framework/Headers/AudioKit.h; sourceTree = "<group>"; };
+		094590E8C7BB77BD1E20EE900593A51E /* CAudioKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = CAudioKit.xcframework; sourceTree = "<group>"; };
+		0A2204707C50E720EE9B815F33BEBABD /* Pods-MidiMetronome-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MidiMetronome-frameworks.sh"; sourceTree = "<group>"; };
+		0CE9A32E30E145F2FC0AB0DE309B1ED0 /* CircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularSlider.swift; path = JOCircularSlider/Classes/CircularSlider.swift; sourceTree = "<group>"; };
+		18FE8F5EBB4A286ED663BD3DBF8CB421 /* AudioKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioKit.debug.xcconfig; sourceTree = "<group>"; };
+		20B4331ADDB1E966F76E1A191B04DBB5 /* JOCircularSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JOCircularSlider.release.xcconfig; sourceTree = "<group>"; };
+		2A91361792146E4C7CAF385A2BBE44D8 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = JOCircularSlider/Classes/Extensions.swift; sourceTree = "<group>"; };
+		3870C97F11B6CB0ED14BB1FDB4920099 /* PointerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerView.swift; path = JOCircularSlider/Classes/PointerView.swift; sourceTree = "<group>"; };
+		39F477752DED532008A92407A789D42A /* Pods-MidiMetronome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidiMetronome.release.xcconfig"; sourceTree = "<group>"; };
+		3C6ACFC5FB9D14DDF1FCD33846F5A513 /* soundpipe.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = soundpipe.xcframework; sourceTree = "<group>"; };
+		41D62185C31F5A97CD5E3949030B8713 /* Pods-MidiMetronome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MidiMetronome-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4463B68F4A0C3E7E82056CD33C192903 /* JOCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JOCircularSlider-prefix.pch"; sourceTree = "<group>"; };
+		492C2AF7A388DEAC1DB41511861AEEC4 /* JOCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JOCircularSlider-umbrella.h"; sourceTree = "<group>"; };
+		5CD0CA47B7C9C00A663303C3204C7146 /* Pods-MidiMetronome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MidiMetronome-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D03D19318DED3EC362FDF3DBEA91D46 /* KnobView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KnobView.swift; path = JOCircularSlider/Classes/KnobView.swift; sourceTree = "<group>"; };
+		70DD946C17CB96921098AF7DB85381A1 /* CircularLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularLayer.swift; path = JOCircularSlider/Classes/CircularLayer.swift; sourceTree = "<group>"; };
+		714D91AE35F332712A45F648EC223E4A /* Pods-MidiMetronome */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MidiMetronome"; path = Pods_MidiMetronome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7220A6FDE9193E9AD2987B87E7A909F6 /* DotLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotLayer.swift; path = JOCircularSlider/Classes/DotLayer.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		733145C2DEC396C7372F4414DC517521 /* Pods-MidiMetronome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MidiMetronome.modulemap"; sourceTree = "<group>"; };
+		7B0947C99BEA3A45DF2BDCD2A1679A3C /* Pods-MidiMetronome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MidiMetronome.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE09AE719407A199888A900DF41613C /* Pods-MidiMetronome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MidiMetronome-Info.plist"; sourceTree = "<group>"; };
+		7F6631CA81B7C3328A60012E0B749CEC /* AudioKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioKit.release.xcconfig; sourceTree = "<group>"; };
+		841FDFEDA2F3DDF4A648BB5E99F6EC78 /* JOCircularSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JOCircularSlider.debug.xcconfig; sourceTree = "<group>"; };
+		907DD7CBADC7AA5EBCAFE019785480A0 /* sporth.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = sporth.xcframework; sourceTree = "<group>"; };
+		96C80B6DB16E13C76F77CF84163A71A4 /* STK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = STK.xcframework; sourceTree = "<group>"; };
+		9A91BBC9F3071F235A3A5004174C7E2C /* DotView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotView.swift; path = JOCircularSlider/Classes/DotView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA4668F206A0E3320633D8C975765B9C /* AudioKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AudioKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		B48C3E2ED72FDD5F4C1F9DF0F6A19C2D /* JOCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JOCircularSlider-dummy.m"; sourceTree = "<group>"; };
+		B91CD6C295CA97CEFAA4AD20F22F354B /* JOCircularSlider */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JOCircularSlider; path = JOCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D930845B536FFE137F5BB1214E408A6D /* JOCircularSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JOCircularSlider-Info.plist"; sourceTree = "<group>"; };
+		E696BF824D6FF684EC022492A4C48904 /* Pods-MidiMetronome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MidiMetronome-umbrella.h"; sourceTree = "<group>"; };
+		EF7F9C3BB1551AE6F72E6FE2DB95E102 /* AudioKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AudioKit.xcframework; sourceTree = "<group>"; };
+		F883818AB870103E4B41EA10AC42480B /* Pods-MidiMetronome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MidiMetronome-dummy.m"; sourceTree = "<group>"; };
+		F9B884DE8AC2BE068314FE9402045232 /* JOCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JOCircularSlider.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D983E5E980DD0FF7B28E97C75B1684E4 /* Frameworks */ = {
+		33C1E6A7D1539ACA1DF0F40E39FB332C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D50779E9AFD3996568D42B881F56B31 /* Foundation.framework in Frameworks */,
+				B62DA290836A8C931FD238A920D2F08A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5F79058662A24249C641B943B88CEC1 /* Frameworks */ = {
+		7673443B2EE5A7A7934D9F49E3A760D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660798C2243945A44AC61B9DE433816A /* Foundation.framework in Frameworks */,
+				CE4C3487540B40F28C8E9BD063525D70 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1197363458168104CF75AA3150EED24F /* Frameworks */ = {
+		040D3522B90E788968B61BCC53C75D86 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				154D14BBE1C79BCFF7F6DBFCC5946B3D /* AudioKit.framework */,
+				49096F217CC00B9D48DF902D1955267B /* Frameworks */,
 			);
-			name = Frameworks;
+			name = C;
 			sourceTree = "<group>";
 		};
-		122FC34BC33D328ACEA051434CA908E3 /* AudioKit */ = {
+		1073BC52AFCAD4D3EA254EC4CEFC8997 /* AudioKit */ = {
 			isa = PBXGroup;
 			children = (
-				7E3EE1AA4E272D2243FC587EA12BA2C0 /* Core */,
-				C4D02AC5BA41C390A7A81BDC2A9D687D /* UI */,
+				040D3522B90E788968B61BCC53C75D86 /* C */,
+				A0C62770A4D8C9C1EE84AC7A512764AC /* Core */,
+				ADD883B30D61FB4F8DD18A4C1F498074 /* Soundpipe */,
+				2626E9E952A136D61CA64779A8B36D84 /* Sporth */,
+				AA7BC1C71AB7C617FFF82CEB7DD1AE1C /* STK */,
+				FCE7B23D5DB23CEB76242CB29F79E539 /* Support Files */,
 			);
 			name = AudioKit;
 			path = AudioKit;
 			sourceTree = "<group>";
 		};
-		433D4ED6C4DE7FCA7FADC23D8F0F4EBA /* JOCircularSlider */ = {
+		19A7BF127C253C54F9E3F0B692F9D556 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				849CCFF68933A2A42DFA1AC8FBF4E139 /* CircularLayer.swift */,
-				A6FE8D243FB361FE7C4D100D7EC0C0F2 /* CircularSlider.swift */,
-				E7B744B6088A1FF5FC07778DCD82B615 /* DotLayer.swift */,
-				A1761F4B3EADDB012A05A2A359C1F3BA /* DotView.swift */,
-				458647EBA0AB6AD0015E2F6FAA054361 /* Extensions.swift */,
-				C02BC8C0A99740FA22D99234E73FB253 /* KnobView.swift */,
-				62C3393B0B568CB1E721038FC7A17F43 /* PointerView.swift */,
-				B2C8954C7DB3BF0B6338594296C50AA4 /* Support Files */,
+				D667EB472EB2F96F1976CBADE99887BD /* Pods-MidiMetronome */,
 			);
-			name = JOCircularSlider;
-			path = JOCircularSlider;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		488AF32E164DF8B39A03F59A4D25E0AD /* Pods */ = {
+		2613F958825D872AF9E0F74499E8610F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				122FC34BC33D328ACEA051434CA908E3 /* AudioKit */,
-				433D4ED6C4DE7FCA7FADC23D8F0F4EBA /* JOCircularSlider */,
+				1073BC52AFCAD4D3EA254EC4CEFC8997 /* AudioKit */,
+				F7850AE845802407942133AA381DF9E1 /* JOCircularSlider */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4C35C92CCB192302E276DDE83A95A832 /* Frameworks */ = {
+		2626E9E952A136D61CA64779A8B36D84 /* Sporth */ = {
 			isa = PBXGroup;
 			children = (
-				C791D323EF14B9FEEA7DD73F602D2FF0 /* AudioKitUI.framework */,
+				A02AACAC116DF758910E5F382D9B4005 /* Frameworks */,
+			);
+			name = Sporth;
+			sourceTree = "<group>";
+		};
+		49096F217CC00B9D48DF902D1955267B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094590E8C7BB77BD1E20EE900593A51E /* CAudioKit.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5285412CD7ED7FB87155BDC58CA10749 /* Products */ = {
+		502F836875DF3472C348F3D3F22BE610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1608D6B156BBD8365A03FF20FA6889A5 /* JOCircularSlider.framework */,
-				127D0D579BF900158CBCA92B86AADCE4 /* Pods_MidiMetronome.framework */,
+				3C6ACFC5FB9D14DDF1FCD33846F5A513 /* soundpipe.xcframework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		7479660A4A104FBDDEA49A6933ADB090 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				488AF32E164DF8B39A03F59A4D25E0AD /* Pods */,
-				5285412CD7ED7FB87155BDC58CA10749 /* Products */,
-				C92881BCA065BB9BFA7EE94DB593869F /* Targets Support Files */,
+				EF7F9C3BB1551AE6F72E6FE2DB95E102 /* AudioKit.xcframework */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7E3EE1AA4E272D2243FC587EA12BA2C0 /* Core */ = {
+		7A46CA404E87CBF7233C9F2D356E1F45 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B78B505EA3B6A730D7F96E17D8FEFE41 /* AKAmplitudeTrackerAudioUnit.h */,
-				12D04B74BD6A2F1457F14EE8DE9B353A /* AKAudioUnit.h */,
-				C4F8568577EA5CAC02974CF3F2812F08 /* AKAudioUnitBase.h */,
-				40A4A44F00D05846B73382E9DAF2023B /* AKBalancerAudioUnit.h */,
-				49DFB28B11EB10EEA042118F228AD530 /* AKBankAudioUnit.h */,
-				3DA4BC4A84D99614B1E156CF7EA18E10 /* AKCallbackInstrumentAudioUnit.h */,
-				A06C317B9874E9973BDA4ACD31EBD907 /* AKDiskStreamerAudioUnit.h */,
-				09BB56E120F2DD81904E1591DF5E5439 /* AKDynaRageCompressorAudioUnit.h */,
-				63929F470CBB9CD3CAFFCBCD2B008BD2 /* AKFMOscillatorBankAudioUnit.h */,
-				A25ED33783AC440D2F874128C26C69B3 /* AKFrequencyTrackerAudioUnit.h */,
-				C07530F981F585B45AFFE2F777A610A8 /* AKGeneratorAudioUnitBase.h */,
-				6A83F3098F163ACFD7232AA680E09723 /* AKInterop.h */,
-				07CA35BE86C8FF8DCE6A843778EAFF36 /* AKLazyTap.h */,
-				0E50A76C07EC0EBCE3DEAA16556E6C67 /* AKMandolinAudioUnit.h */,
-				355F90E2CBC0B6E89EDD8A659A838165 /* AKMicrophoneTrackerEngine.h */,
-				861A19696004698E7475055747451D6A /* AKModulatedDelay_Typedefs.h */,
-				08E077CBA18B60D19DEFEE1D65B15AB3 /* AKMorphingOscillatorBankAudioUnit.h */,
-				0A76FCE0A1221D94132D28116EEEC2D1 /* AKOfflineRenderAudioUnit.h */,
-				5BCBA7BCCA4CCB9B00700FB320FABC03 /* AKOperationEffectAudioUnit.h */,
-				E761D18C66608B017A2D0B5043CF0B97 /* AKOperationGeneratorAudioUnit.h */,
-				5600C0BBB06EDE5C7592593B7308B4B3 /* AKOscillatorBankAudioUnit.h */,
-				35021A9D2FB4893559D0C93DE6C77110 /* AKPhaseDistortionOscillatorBankAudioUnit.h */,
-				8BCF37512C52D6C6C7964E4D9308A32B /* AKPresetManager.h */,
-				DDA41CD810D0BF8355E9BEA8147F3D3C /* AKPWMOscillatorBankAudioUnit.h */,
-				30A635793D77C6449151B034F87EA286 /* AKRenderTap.h */,
-				4EBC57DC9729952363C4BFA8983921BF /* AKRhinoGuitarProcessorAudioUnit.h */,
-				3F629C947C6230B295082E04E113DB4C /* AKSampler_Typedefs.h */,
-				D7BAA882305BDB8386BC4DD4276D8424 /* AKSamplerMetronome.h */,
-				68B07E560BCBF353C1496F087FEFCDCC /* AKSporthStack.h */,
-				8E5233D2B5E19113E048FA44168A8568 /* AKTesterAudioUnit.h */,
-				C3578FB0D5E0A21E43E4555905C8419A /* AKTimeline.h */,
-				1DDCF24F25120CCBC107E248F9C28ED9 /* AKTimelineTap.h */,
-				3773F4AB1E10290B205855F70CB3D776 /* AKWaveTableAudioUnit.h */,
-				AE44E20D12939085DF091F7B40B10743 /* AudioEngineUnit.h */,
-				FFFAB98574F9B481068C380D686E39DC /* AudioKit.h */,
-				22EBF2812883158F95C48AA1847B4F00 /* AudioKit-Swift.h */,
-				BA5533A355B31873E89BB8F84ECCBC2B /* BufferedAudioUnit.h */,
-				C87F38C882BBB872A48E75898E415C86 /* dr_wav.h */,
-				6C0B28AEF882CFD05117C9EC169C030E /* ExceptionCatcher.h */,
-				E6921A676E6245DF50E11342E77F6C81 /* EZAudio.h */,
-				B6B0099A3FF509C932F9224B6ECC69D6 /* EZAudioDevice.h */,
-				F050D88195D6BB53BA1356BE959E67D6 /* EZAudioFFT.h */,
-				F77376BD2B7AB81C85BB7827A6BA638D /* EZAudioFile.h */,
-				FD5B73F7F064F85AD57F88DC8903AE67 /* EZAudioFileMarker.h */,
-				A3BD777616A420EF37663D5DB03CCE1F /* EZAudioFloatConverter.h */,
-				87C7BF9B9F6F7F20873A0BFFA6DDB2B0 /* EZAudioFloatData.h */,
-				5F3B2581B958B00CF9FAFFA689E2F479 /* EZAudioPlayer.h */,
-				32C9DB978D94FA4496360290F7D9FB33 /* EZAudioUtilities.h */,
-				90A9BCA7C1E5AB53AC6E1268EDB9F0A7 /* EZMicrophone.h */,
-				7B8E0833471013D261A3ABE2CD8D9E02 /* EZOutput.h */,
-				38AF343597D4F79D0D96082F494B338D /* EZRecorder.h */,
-				1B98209211FD05526DCE1365F0797A95 /* soundpipe.h */,
-				60BE5237137818BDB1D95B340DBF532F /* TPCircularBuffer.h */,
-				0C35BCD32A25D262C6BDB6F21868388A /* TPCircularBuffer+AudioBufferList.h */,
-				3CFEEBC8DB6602BE358E50CEE7F13440 /* TPCircularBuffer+Unit.h */,
-				CC787D1FA6046C17DB3D998D00E15F63 /* vocwrapper.h */,
-				1197363458168104CF75AA3150EED24F /* Frameworks */,
+				96C80B6DB16E13C76F77CF84163A71A4 /* STK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A02AACAC116DF758910E5F382D9B4005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				907DD7CBADC7AA5EBCAFE019785480A0 /* sporth.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C62770A4D8C9C1EE84AC7A512764AC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7479660A4A104FBDDEA49A6933ADB090 /* Frameworks */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		99FB52CC7B513D5A14C8DA05FB541EAD /* Pods-MidiMetronome */ = {
+		AA7BC1C71AB7C617FFF82CEB7DD1AE1C /* STK */ = {
 			isa = PBXGroup;
 			children = (
-				F3101FA89340AB3538BC960503139967 /* Info.plist */,
-				76B5D71386DCBDDF8FDBD350BD3479A4 /* Pods-MidiMetronome.modulemap */,
-				0B7264FD99F14DB79C071DAF834A4DBD /* Pods-MidiMetronome-acknowledgements.markdown */,
-				A9C347605599E1B7944DB00F306101BF /* Pods-MidiMetronome-acknowledgements.plist */,
-				C3F167A2817A4CCEC9F07184CB4E1B88 /* Pods-MidiMetronome-dummy.m */,
-				5E89924BCD2F2A6D303DECF4A9513E59 /* Pods-MidiMetronome-frameworks.sh */,
-				B94CCBED64A43212E2AB8BF898333E08 /* Pods-MidiMetronome-resources.sh */,
-				10E9487C8BC5FC768E96925AF6B94543 /* Pods-MidiMetronome-umbrella.h */,
-				B695938456991ABC0857BD3AE8EF290D /* Pods-MidiMetronome.debug.xcconfig */,
-				A2534D320F3DE38D6D77D6C6CF26E8FA /* Pods-MidiMetronome.release.xcconfig */,
+				7A46CA404E87CBF7233C9F2D356E1F45 /* Frameworks */,
 			);
-			name = "Pods-MidiMetronome";
-			path = "Target Support Files/Pods-MidiMetronome";
+			name = STK;
 			sourceTree = "<group>";
 		};
-		B2C8954C7DB3BF0B6338594296C50AA4 /* Support Files */ = {
+		ADD883B30D61FB4F8DD18A4C1F498074 /* Soundpipe */ = {
 			isa = PBXGroup;
 			children = (
-				3B4D9915EBF8BA2EC034ED87E09FB7D2 /* Info.plist */,
-				1EA3ECF62D5CA6FA8555035811ABE9F8 /* JOCircularSlider.modulemap */,
-				C0EC66A86C344D1E3F9A33400C068F3C /* JOCircularSlider.xcconfig */,
-				4AFDE79218E9E5AE72EAD89C407B2CEB /* JOCircularSlider-dummy.m */,
-				EE63A4F16387E3194C2372197F91D2E8 /* JOCircularSlider-prefix.pch */,
-				33551EF1A63AD5D7ACBC7D97C7234348 /* JOCircularSlider-umbrella.h */,
+				502F836875DF3472C348F3D3F22BE610 /* Frameworks */,
+			);
+			name = Soundpipe;
+			sourceTree = "<group>";
+		};
+		BC981998166738AC43D2DCFAEBBCF5D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9B884DE8AC2BE068314FE9402045232 /* JOCircularSlider.modulemap */,
+				B48C3E2ED72FDD5F4C1F9DF0F6A19C2D /* JOCircularSlider-dummy.m */,
+				D930845B536FFE137F5BB1214E408A6D /* JOCircularSlider-Info.plist */,
+				4463B68F4A0C3E7E82056CD33C192903 /* JOCircularSlider-prefix.pch */,
+				492C2AF7A388DEAC1DB41511861AEEC4 /* JOCircularSlider-umbrella.h */,
+				841FDFEDA2F3DDF4A648BB5E99F6EC78 /* JOCircularSlider.debug.xcconfig */,
+				20B4331ADDB1E966F76E1A191B04DBB5 /* JOCircularSlider.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JOCircularSlider";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2613F958825D872AF9E0F74499E8610F /* Pods */,
+				DF7A83FA4ADD68512943D3E48565ED0E /* Products */,
+				19A7BF127C253C54F9E3F0B692F9D556 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4D02AC5BA41C390A7A81BDC2A9D687D /* UI */ = {
+		D667EB472EB2F96F1976CBADE99887BD /* Pods-MidiMetronome */ = {
 			isa = PBXGroup;
 			children = (
-				74C645865DC00857B5C1F3B6EADBAD5B /* AudioKitUI.h */,
-				18AACC148689F73672DFF33EE61C3CD3 /* AudioKitUI-Swift.h */,
-				73DBB4E1E9CC9C5584B69E59BD8109C5 /* EZAudioDisplayLink.h */,
-				88E55E8C6C6C06D19B960B8771369ABD /* EZAudioPlot.h */,
-				53C8A874D4FDF301D786D2574AB250D9 /* EZAudioPlotGL.h */,
-				B41E20752606FB1C9E0501A7C1ACFC2B /* EZPlot.h */,
-				4C35C92CCB192302E276DDE83A95A832 /* Frameworks */,
+				733145C2DEC396C7372F4414DC517521 /* Pods-MidiMetronome.modulemap */,
+				41D62185C31F5A97CD5E3949030B8713 /* Pods-MidiMetronome-acknowledgements.markdown */,
+				5CD0CA47B7C9C00A663303C3204C7146 /* Pods-MidiMetronome-acknowledgements.plist */,
+				F883818AB870103E4B41EA10AC42480B /* Pods-MidiMetronome-dummy.m */,
+				0A2204707C50E720EE9B815F33BEBABD /* Pods-MidiMetronome-frameworks.sh */,
+				7DE09AE719407A199888A900DF41613C /* Pods-MidiMetronome-Info.plist */,
+				E696BF824D6FF684EC022492A4C48904 /* Pods-MidiMetronome-umbrella.h */,
+				7B0947C99BEA3A45DF2BDCD2A1679A3C /* Pods-MidiMetronome.debug.xcconfig */,
+				39F477752DED532008A92407A789D42A /* Pods-MidiMetronome.release.xcconfig */,
 			);
-			name = UI;
+			name = "Pods-MidiMetronome";
+			path = "Target Support Files/Pods-MidiMetronome";
 			sourceTree = "<group>";
 		};
-		C92881BCA065BB9BFA7EE94DB593869F /* Targets Support Files */ = {
+		DF7A83FA4ADD68512943D3E48565ED0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99FB52CC7B513D5A14C8DA05FB541EAD /* Pods-MidiMetronome */,
+				B91CD6C295CA97CEFAA4AD20F22F354B /* JOCircularSlider */,
+				714D91AE35F332712A45F648EC223E4A /* Pods-MidiMetronome */,
 			);
-			name = "Targets Support Files";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7850AE845802407942133AA381DF9E1 /* JOCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				70DD946C17CB96921098AF7DB85381A1 /* CircularLayer.swift */,
+				0CE9A32E30E145F2FC0AB0DE309B1ED0 /* CircularSlider.swift */,
+				7220A6FDE9193E9AD2987B87E7A909F6 /* DotLayer.swift */,
+				9A91BBC9F3071F235A3A5004174C7E2C /* DotView.swift */,
+				2A91361792146E4C7CAF385A2BBE44D8 /* Extensions.swift */,
+				6D03D19318DED3EC362FDF3DBEA91D46 /* KnobView.swift */,
+				3870C97F11B6CB0ED14BB1FDB4920099 /* PointerView.swift */,
+				BC981998166738AC43D2DCFAEBBCF5D8 /* Support Files */,
+			);
+			name = JOCircularSlider;
+			path = JOCircularSlider;
+			sourceTree = "<group>";
+		};
+		FCE7B23D5DB23CEB76242CB29F79E539 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA4668F206A0E3320633D8C975765B9C /* AudioKit-xcframeworks.sh */,
+				18FE8F5EBB4A286ED663BD3DBF8CB421 /* AudioKit.debug.xcconfig */,
+				7F6631CA81B7C3328A60012E0B749CEC /* AudioKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AudioKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		172C8CCF0217C097A137BD0EFE8D8C79 /* Headers */ = {
+		26C222A5021308BC82045702E72B66A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E05DC491C6AD5AC151ABB71DCC8A1C3 /* Pods-MidiMetronome-umbrella.h in Headers */,
+				F290AE27BAE90D03CAE4FB7158A33B71 /* Pods-MidiMetronome-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22D3039C1B2E2081778B816551EDC6A9 /* Headers */ = {
+		B9D61CE536594D0573E708C05FA2DE4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A200C496503023403643F7507069F886 /* JOCircularSlider-umbrella.h in Headers */,
+				B829E2097340FE86FEC8DA3A2F3B1109 /* JOCircularSlider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08BF2BD02C202DBED3012D05339A40AA /* Pods-MidiMetronome */ = {
+		5694400A6CDE158CD33C0CD7226F3953 /* Pods-MidiMetronome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6A128713CC0EFDD215DCDF57D1DC06E /* Build configuration list for PBXNativeTarget "Pods-MidiMetronome" */;
+			buildConfigurationList = 9956630BCE3040E581FB5FF931563359 /* Build configuration list for PBXNativeTarget "Pods-MidiMetronome" */;
 			buildPhases = (
-				172C8CCF0217C097A137BD0EFE8D8C79 /* Headers */,
-				FBB5513F8E2CA74B6DBB0FE2B58739DE /* Sources */,
-				D983E5E980DD0FF7B28E97C75B1684E4 /* Frameworks */,
-				F9A10FD5DDCCB8EF9F56D94142BFD483 /* Resources */,
+				26C222A5021308BC82045702E72B66A5 /* Headers */,
+				785DC03E715E36AF1BDC28C6A1BFD6DF /* Sources */,
+				33C1E6A7D1539ACA1DF0F40E39FB332C /* Frameworks */,
+				A3D89A7B2E6DE3D1952F9A353312FD14 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3431D7F31B02A44FEFADAE80A211821 /* PBXTargetDependency */,
+				5CE1E9F867BF3B34092F0375EA6F0E0F /* PBXTargetDependency */,
+				4AE80A96A35B4168336BC78BE5194F4C /* PBXTargetDependency */,
 			);
 			name = "Pods-MidiMetronome";
-			productName = "Pods-MidiMetronome";
-			productReference = 127D0D579BF900158CBCA92B86AADCE4 /* Pods_MidiMetronome.framework */;
+			productName = Pods_MidiMetronome;
+			productReference = 714D91AE35F332712A45F648EC223E4A /* Pods-MidiMetronome */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D3F42F68B8A84236F702C7164476F05 /* JOCircularSlider */ = {
+		5D6BEF85A40B5F6295BAFB990665F82C /* JOCircularSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA63EF6D068030A03DE9DF64EF1D88AD /* Build configuration list for PBXNativeTarget "JOCircularSlider" */;
+			buildConfigurationList = 0B78E01B317660815E97D1CDDE67DD72 /* Build configuration list for PBXNativeTarget "JOCircularSlider" */;
 			buildPhases = (
-				22D3039C1B2E2081778B816551EDC6A9 /* Headers */,
-				BAA2748682F1328EFC5AA9790363F892 /* Sources */,
-				E5F79058662A24249C641B943B88CEC1 /* Frameworks */,
-				36EFC8CB7C1AB2937308D5689E6746DA /* Resources */,
+				B9D61CE536594D0573E708C05FA2DE4D /* Headers */,
+				BD4AAAF59739E934626EC4D1A576B4BA /* Sources */,
+				7673443B2EE5A7A7934D9F49E3A760D6 /* Frameworks */,
+				D2786043AAAA2750EA92657156A43815 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -407,45 +373,47 @@
 			);
 			name = JOCircularSlider;
 			productName = JOCircularSlider;
-			productReference = 1608D6B156BBD8365A03FF20FA6889A5 /* JOCircularSlider.framework */;
+			productReference = B91CD6C295CA97CEFAA4AD20F22F354B /* JOCircularSlider */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5285412CD7ED7FB87155BDC58CA10749 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DF7A83FA4ADD68512943D3E48565ED0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D3F42F68B8A84236F702C7164476F05 /* JOCircularSlider */,
-				08BF2BD02C202DBED3012D05339A40AA /* Pods-MidiMetronome */,
+				CF5EDB66CAC2972B9BC27EFA2073CB2B /* AudioKit */,
+				5D6BEF85A40B5F6295BAFB990665F82C /* JOCircularSlider */,
+				5694400A6CDE158CD33C0CD7226F3953 /* Pods-MidiMetronome */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		36EFC8CB7C1AB2937308D5689E6746DA /* Resources */ = {
+		A3D89A7B2E6DE3D1952F9A353312FD14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9A10FD5DDCCB8EF9F56D94142BFD483 /* Resources */ = {
+		D2786043AAAA2750EA92657156A43815 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -454,49 +422,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CD74738EB61A073E9A1C7FF419C4E3F3 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AudioKit/AudioKit-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AudioKit/AudioKit-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AudioKit/AudioKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		BAA2748682F1328EFC5AA9790363F892 /* Sources */ = {
+		785DC03E715E36AF1BDC28C6A1BFD6DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69D487DB49F1602FA2AD65EEDCF348E /* CircularLayer.swift in Sources */,
-				19CBFBCB02F3A964F8083081E2E7F844 /* CircularSlider.swift in Sources */,
-				942B8C8B51F9B2FD7AF3B32A618B6D6C /* DotLayer.swift in Sources */,
-				0A4EC08477A22ACDF3E5EBE9B1E8CD4C /* DotView.swift in Sources */,
-				30DBA0C0515A03ABBC763BEB03B6753A /* Extensions.swift in Sources */,
-				C49C5F60311544C0A350B9E2EC53E692 /* JOCircularSlider-dummy.m in Sources */,
-				6402BA825A109DC57E5E71689B0DF4B6 /* KnobView.swift in Sources */,
-				25E0CB60699B3EF11B83A0A9291F81B1 /* PointerView.swift in Sources */,
+				CCFE0ED744581CED56FF81C549A7C1FD /* Pods-MidiMetronome-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBB5513F8E2CA74B6DBB0FE2B58739DE /* Sources */ = {
+		BD4AAAF59739E934626EC4D1A576B4BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44AF9D9130AAB14739F0F8B3FFAE4E42 /* Pods-MidiMetronome-dummy.m in Sources */,
+				95F7F54BD6045047F0DCA51E95FBF3CD /* CircularLayer.swift in Sources */,
+				D2535FDF076B1486EFA575DEAC65C00D /* CircularSlider.swift in Sources */,
+				6FC0C2223467302EAE9F892FE355A557 /* DotLayer.swift in Sources */,
+				21CC659830BCA02E08CEFCA3F0E17F2E /* DotView.swift in Sources */,
+				720EDFE7A9E665736BEAA789BB0B847B /* Extensions.swift in Sources */,
+				98E13C87B248F3255563EB75E72BDE92 /* JOCircularSlider-dummy.m in Sources */,
+				33CB174EBDD53E56A8E5E13A3F6152CB /* KnobView.swift in Sources */,
+				E1E0008744BDB9635EEFD342F1B16A09 /* PointerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D3431D7F31B02A44FEFADAE80A211821 /* PBXTargetDependency */ = {
+		4AE80A96A35B4168336BC78BE5194F4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JOCircularSlider;
-			target = 6D3F42F68B8A84236F702C7164476F05 /* JOCircularSlider */;
-			targetProxy = F072797E07BD9DCE3DED3F30B1B91329 /* PBXContainerItemProxy */;
+			target = 5D6BEF85A40B5F6295BAFB990665F82C /* JOCircularSlider */;
+			targetProxy = 8799BC3A88C253A3B7244B4A357CC53E /* PBXContainerItemProxy */;
+		};
+		5CE1E9F867BF3B34092F0375EA6F0E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioKit;
+			target = CF5EDB66CAC2972B9BC27EFA2073CB2B /* AudioKit */;
+			targetProxy = E57DD9F7E22FF37B4E778355C78F5290 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2955F3A463D93D0C0FB8FEDE14FBD64A /* Release */ = {
+		0952A1F2636C5450D53B8BA469859E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2534D320F3DE38D6D77D6C6CF26E8FA /* Pods-MidiMetronome.release.xcconfig */;
+			baseConfigurationReference = 18FE8F5EBB4A286ED663BD3DBF8CB421 /* AudioKit.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28B502563518201BE3D704014601C769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841FDFEDA2F3DDF4A648BB5E99F6EC78 /* JOCircularSlider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -505,7 +514,97 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MidiMetronome/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JOCircularSlider/JOCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JOCircularSlider/JOCircularSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JOCircularSlider/JOCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = JOCircularSlider;
+				PRODUCT_NAME = JOCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		363BE98C0B6CC4ECF50484433405E356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6631CA81B7C3328A60012E0B749CEC /* AudioKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F9C795EC322CA4D3EF30AC6D861391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B4331ADDB1E966F76E1A191B04DBB5 /* JOCircularSlider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JOCircularSlider/JOCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JOCircularSlider/JOCircularSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JOCircularSlider/JOCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = JOCircularSlider;
+				PRODUCT_NAME = JOCircularSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6042D6AA71C65BBB155C14C3D9167A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0947C99BEA3A45DF2BDCD2A1679A3C /* Pods-MidiMetronome.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -522,21 +621,18 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		6F6BD3F06CD8D3AEE15B8CD0FF2BAC26 /* Debug */ = {
+		8766ED80F0AF71E3B8F64C1085E8D0EB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0EC66A86C344D1E3F9A33400C068F3C /* JOCircularSlider.xcconfig */;
+			baseConfigurationReference = 39F477752DED532008A92407A789D42A /* Pods-MidiMetronome.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -545,33 +641,35 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JOCircularSlider/JOCircularSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JOCircularSlider/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/JOCircularSlider/JOCircularSlider.modulemap";
-				PRODUCT_MODULE_NAME = JOCircularSlider;
-				PRODUCT_NAME = JOCircularSlider;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -594,14 +692,75 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -628,179 +787,52 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		CF34321E98D6C17F8B8120AB85C2B2B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B695938456991ABC0857BD3AE8EF290D /* Pods-MidiMetronome.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MidiMetronome/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MidiMetronome/Pods-MidiMetronome.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		D9A2622515DC500DF3ACD00AD6F98FCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0EC66A86C344D1E3F9A33400C068F3C /* JOCircularSlider.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JOCircularSlider/JOCircularSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JOCircularSlider/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JOCircularSlider/JOCircularSlider.modulemap";
-				PRODUCT_MODULE_NAME = JOCircularSlider;
-				PRODUCT_NAME = JOCircularSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0B78E01B317660815E97D1CDDE67DD72 /* Build configuration list for PBXNativeTarget "JOCircularSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
-				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
+				28B502563518201BE3D704014601C769 /* Debug */,
+				42F9C795EC322CA4D3EF30AC6D861391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA63EF6D068030A03DE9DF64EF1D88AD /* Build configuration list for PBXNativeTarget "JOCircularSlider" */ = {
+		30DC7B6D7F4A9227EDE557EB0E0220F1 /* Build configuration list for PBXAggregateTarget "AudioKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F6BD3F06CD8D3AEE15B8CD0FF2BAC26 /* Debug */,
-				D9A2622515DC500DF3ACD00AD6F98FCE /* Release */,
+				0952A1F2636C5450D53B8BA469859E32 /* Debug */,
+				363BE98C0B6CC4ECF50484433405E356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6A128713CC0EFDD215DCDF57D1DC06E /* Build configuration list for PBXNativeTarget "Pods-MidiMetronome" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF34321E98D6C17F8B8120AB85C2B2B1 /* Debug */,
-				2955F3A463D93D0C0FB8FEDE14FBD64A /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9956630BCE3040E581FB5FF931563359 /* Build configuration list for PBXNativeTarget "Pods-MidiMetronome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6042D6AA71C65BBB155C14C3D9167A87 /* Debug */,
+				8766ED80F0AF71E3B8F64C1085E8D0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
