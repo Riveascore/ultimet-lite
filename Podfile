@@ -4,6 +4,6 @@ target 'MidiMetronome' do
     use_frameworks!
 
 pod 'JOCircularSlider'
-pod 'AudioKit', '~> 4.5.0'
+pod 'AudioKit'
 
 end
